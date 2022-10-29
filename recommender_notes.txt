@@ -1,0 +1,6 @@
+Content-Based filtering:
+    --Make a number of workout plans based on what the user wants to achieve
+    --We can divide each exercise into a type (for weight loss, for muscle building, for maintaining fitness level).
+    --For this, we will have to pre-define a number of workout plans. 
+    --We can use the workout completion as an indicator of how much a user likes a workout. This is what Nike does.
+

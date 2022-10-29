@@ -1,0 +1,35 @@
+Product is getactyv
+
+building dataset has to be done by us
+
+parameter: goal, training level, gender,
+bmi, frequency
+
+3 parts of workout plan:
+    1. Warm up
+    2. Main part
+    3. Cool down
+
+OUTPUT- regime. 
+
+21 day program inclusive of warm up
+recommendation logic should be adaptive
+
+*****************
+
+kaggle competition titanic
+
+
+Reinforcement Learning
+Progressive Learning
+
+
+
+///////8th October, 2022
+
+TERMINOLOGY: Routine is a 21 day program. DayTraining(DT) is the exercises for 1 day.
+
+Any correlation between warmup, workout and cooldown?
+
+We will give an intensity value to each exercise (0-1). When we add all the exercises in 1 DT, we should get 1 as intensity.
+

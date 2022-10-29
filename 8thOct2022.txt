@@ -1,0 +1,47 @@
+How do we build a dataset, when there is no data available?
+
+The terminology we are using is this:
+    "Routine": A 21 day program.
+    "DayTraining (DT)": 1 day's exercise.
+    "Phase": Each DT contains 3 phases (Warmup, Workout, Cooldown)
+
+An approach we came up with was to give an "intensity" attribute to each exercise.
+
+The value of the attribute would range from 0.0-0.5, 0.5 being the highest intensity. 
+
+For each DT, the combined intensity of all the exercises will be 1. 
+
+Each exercise will have multiple values for the "goal" attribute. 
+
+
+
+******** 
+1. Build an engine which will assign routines to users based on
+   the below "algorithm":
+        i) User inputs parameters [Weight, Height, Age, Gender, 
+           Activity Level]. The program will calculate BMI from
+           weight, height etc.
+        ii) Each exercise will have an "intensity" attribute 
+            assigned to it. (Ranging from 0-1). For each DT, 
+            the combined intensity of all exercises will be 3
+            (1 for warmup, 1 for workout, 1 for cooldown).
+        iii) 
+
+2.  
+
+********
+
+**************************
+ML MODEL
+
+1. Online Learning:
+       One important parameter of online learning systems is how fast they should adapt to
+changing data: this is called the learning rate. If you set a high learning rate, then your
+system will rapidly adapt to new data, but it will also tend to quickly forget the old
+data (you don’t want a spam filter to flag only the latest kinds of spam it was shown).
+Conversely, if you set a low learning rate, the system will have more inertia; that is, it
+will learn more slowly, but it will also be less sensitive to noise in the new data or to
+sequences of nonrepresentative data points (outliers) 
+
+
+MAKE COMBINATIONS OF DAY TRAININGS.

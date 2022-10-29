@@ -1,0 +1,4 @@
+Include all the features for the clustering except blood pressure and grip force.
+
+1. Analyse a subset of the clustered data.
+2.  
